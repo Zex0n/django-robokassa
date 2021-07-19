@@ -2,10 +2,9 @@
 from setuptools import setup, find_packages
 from robokassa import get_version
 
-try:
-    long_description = open('README.rst').read().decode('utf8')
-except AttributeError:
-    long_description = open('README.rst').read()
+
+
+
 
 
 setup(
@@ -19,9 +18,8 @@ setup(
     include_package_data=True,
     url='https://github.com/LPgenerator/django-robokassa/',
     license='MIT license',
-    description=u'Приложение для интеграции платежной системы '
-                u'ROBOKASSA в проекты на Django.'.encode('utf8'),
-    long_description=long_description,
+    description='robokassa',
+    long_description='robokassa',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
